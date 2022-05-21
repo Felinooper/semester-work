@@ -14,7 +14,7 @@ public class Main {
             Rand.rand(f, temparr[i]);
             writer.append(String.valueOf(temparr[i])).append(",");
             Scanner sc = new Scanner(f);
-            String str = sc.nextLine();
+            String str =  sc.nextLine();
             int[] a = Arrays.stream(str.split(" ")).mapToInt(Integer::parseInt).toArray();
             //System.out.println(Arrays.toString(a));
             long a1 = System.nanoTime();
